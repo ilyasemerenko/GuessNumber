@@ -5,8 +5,8 @@ package smoke.test;
  */
 public class GuessNumber {
     public static void main(String[] args){
-        Utils util = new Utils();
-        util.run();
+        Game game = new Game();
+        game.run();
     }
 
 }
